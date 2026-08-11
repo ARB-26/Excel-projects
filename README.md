@@ -20,7 +20,7 @@ This project covers three tasks built around two datasets: a bike sales dataset 
 
 Built a pivot table summarising **Order Quantity** by **Age Group** and **Customer Gender** (rows) against **Country** (columns).
 
-![Bike sales pivot table](screenshots/task1-pivot-table-bike-sales.png)
+![Bike sales pivot table](task1-pivot-table-bike-sales.png)
 
 💡 Insights pulled from the table:
 - 🇩🇪 Germany's only customers fall in the 35–64 age group
@@ -34,7 +34,7 @@ Built a pivot table summarising **Order Quantity** by **Age Group** and **Custom
 
 Built a pivot table summarising **Sales Volume** by **County** (rows) and **Product** (columns):
 
-![County/product pivot table](screenshots/task2-pivot-table-county-product.png)
+![County/product pivot table](task2-pivot-table-county-product.png)
 
 Then added a nested `SWITCH` formula to classify each row by sales volume without manual tagging:
 
@@ -42,14 +42,14 @@ Then added a nested `SWITCH` formula to classify each row by sales volume withou
 =SWITCH(TRUE, C2 > 600, "High", C2 >= 300, "Medium", "Low")
 ```
 
-![SWITCH function categorisation](screenshots/task2-switch-function-categorization.png)
+![SWITCH function categorisation](task2-switch-function-categorization.png)
 
 ### 3️⃣ Sales Data Visualisation
 **Dataset:** `Bike_Sales_Visualizations_Lab.xlsx`
 
 Built a stacked column PivotChart showing order volume by age group and gender, split by country, to make cross-market patterns easier to spot than in a table alone. 📊
 
-![Sales visualisation chart](screenshots/task3-sales-visualization-chart.png)
+![Sales visualisation chart](task3-sales-visualization-chart.png)
 
 ## 🛠️ Tools
 
